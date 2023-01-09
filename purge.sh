@@ -1,6 +1,6 @@
 git filter-branch --parent-filter '
     read parent
-    if [ "$parent" = "-p e03de281b38a0aed2f0f219308d47afc9c7174c4" ]
+    if [ "$parent" = "-p 85b2dfab8eb283d7bc08bfbe9116bc6cde62136a" ]
     then
         echo
     else
